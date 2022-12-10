@@ -1,12 +1,4 @@
-<?php
 
-
-
-function hitungBiayaParkir() {
-
-}
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

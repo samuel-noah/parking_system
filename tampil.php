@@ -8,6 +8,25 @@
   <th>Waktu Keluar</th>
   <th>Biaya</th>
 </tr>
+<br>
+<button ><a href ="gajiKaryawan.php">Hitung Gaji Karyawan</a></button>
+<style>
+  table {
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(189, 176, 0);
+  }
+  th {
+    background-color: rgb(189, 176, 0)
+  }
+
+</style>
 
 <?php
 include "koneksi.php";
@@ -34,7 +53,7 @@ if (mysqli_num_rows($result) > 0) {
   
   if (mysqli_num_rows($hasil) > 0) {
     while($row = mysqli_fetch_assoc($hasil)) {
-      echo "Jumlah Pemasukan". " ". implode(" ",$row);
+      echo "Jumlah Pemasukan ". " ". implode(" ",$row);
     }
   } else {
     echo "0 results";

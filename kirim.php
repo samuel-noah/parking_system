@@ -13,7 +13,7 @@ $t2 = strtotime($waktuKeluar);
 $hours =abs(($t2 - $t1)/3600) ;
 $hours = round($hours,0,PHP_ROUND_HALF_DOWN);
 
-echo "Lama Parkir: ". $hours . " " . "jam";
+echo "Lama Parkir: ". $hours . " " . "jam ";
 echo "<br>";
 
 
@@ -49,7 +49,7 @@ function hitungBiaya() {
 
  $price = hitungBiaya();
 
-echo "Total Harga: ". $price;  
+echo "<p>Total Harga: </p>". $price;  
 echo "<br>";
 
 $query = "INSERT INTO daftar_parkir (jenisKendaraan, STNK, nomorKendaraan, waktuMasuk, waktuKeluar, price) VALUES 
@@ -59,3 +59,5 @@ $hasilQuery = mysqli_query($conn, $query);
 if ($hasilQuery) echo "Data sudah tersimpan ke database"; else
 echo "Penyimpanan data gagal". mysqli_error($conn);
 ?>
+<br>
+<button ><a href ="tampil.php">Rekap Data</a></button>

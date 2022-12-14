@@ -9,14 +9,19 @@
     <style> 
 
 
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 body {
-    margin-left: 20%;
-    margin-right: 20%;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #ecf0f3;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  place-items: center;
+  overflow: hidden;
+  font-family: poppins;
 }
 input {
     margin-top: 20px;
@@ -27,33 +32,64 @@ h1 {
     justify-content: center;
     color: rgb(189, 176, 0);
 }
+.input-container{
+    position: relative;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+.input{
+    background: #ecf0f3;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+.button{
 
-
+    color: white;
+      margin-top: 20px;
+      background:rgb(189, 176, 0);
+      height: 40px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: 900;
+      box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+      transition: 0.5s;
+}
+.button:hover {
+  box-shadow: none;
+}
     </style>
 
 </head>
 
 <body>
-    <h1 class="title">Pendaftaran Parkir</h1>
- 
-        <form method="POST" action="kirim_kelompok10.php">
-        <div class="input-container">
-            Mobil: <input type= "radio" name = "jenisKendaraan" value = "Mobil" /> 
-             Motor: <input type="radio" name = "jenisKendaraan" value = "Motor" /> 
     
-             <br>
-             Nomor STNK: <input type="text" name = STNK > 
-             <br>
-             Nomor Kendaraan: <input type = "text" name="nomorKendaraan"> 
+    <div class="input-container">
+        <h1 class="title">Pendaftaran Parkir</h1>
+        <form method="POST" action="kirim_kelompok10.php">
+            Mobil: <input type= "radio" name = "jenisKendaraan" value = "Mobil" />
+ 
+             Motor: <input type="radio" name = "jenisKendaraan" value = "Motor" /> 
+            <br>
+             Nomor STNK: 
+             <input class="input" type="text" name = STNK > 
+             
+             Nomor Kendaraan:  
+             <input class='input' size='10'type = "text" name="nomorKendaraan"> 
         <br>
-        Waktu Masuk: <input type = "time" name ="waktuMasuk" value="<?php date("h:i:sa")?>"> 
-        Waktu Keluar: <input type = "time" name ="waktuKeluar" value="<?php date("h:i:sa")?>"> 
+        Waktu Masuk: <input class="input" type = "time" name ="waktuMasuk" value="<?php date("h:i:sa")?>"> 
         <br>
-        <input type = "reset">
-        <input type = "submit" name="submit">  
+        Waktu Keluar: <input class="input" type = "time" name ="waktuKeluar" value="<?php date("h:i:sa")?>"> 
+        <br>
+        <input class="button"type = "reset">
+        <input  class ="button"type = "submit" name="submit">  
         
     </form>
-
+</div>
         
         
 

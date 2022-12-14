@@ -36,7 +36,7 @@ h1 {
 <body>
     <h1 class="title">Pendaftaran Parkir</h1>
  
-        <form method="POST" action="kirim.php">
+        <form method="POST" action="kirim_kelompok10.php">
         <div class="input-container">
             Mobil: <input type= "radio" name = "jenisKendaraan" value = "Mobil" /> 
              Motor: <input type="radio" name = "jenisKendaraan" value = "Motor" /> 

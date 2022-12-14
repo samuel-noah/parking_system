@@ -46,7 +46,7 @@ h1{
 </style>
 <body>
     <h1>Jumlah Gaji Karyawan</h1>
-    <form action ="gajiKaryawan.php" method="POST">
+    <form action ="gajiKaryawan_kelompok10.php" method="POST">
         Jumlah Karyawan: <input type="number" name = "jumlahKaryawan">
         <br>
         <input type ="reset">
@@ -67,4 +67,4 @@ if(isset($_POST['kirim'])){
     echo "<h3 class='echo2'> Total Gaji adalah: "."Rp.". $gajiKaryawan .  "</h3>";
 }
 ?>
-<a href ="home.php" class="btn">Home</a>
+<a href ="home_kelompok10.php" class="btn">Home</a>

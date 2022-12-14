@@ -19,7 +19,7 @@
 
 <?php
 $conn = mysqli_connect('localhost','root');
-mysqli_select_db($conn, 'parkir_kel11');
+mysqli_select_db($conn, 'db_kelompok10');
 if (!$conn){
     die("Connection failed" . mysqli_connect_error());
 }

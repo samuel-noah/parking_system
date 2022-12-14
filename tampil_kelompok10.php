@@ -9,7 +9,7 @@
   <th>Biaya</th>
 </tr>
 <br>
-<a  class='btn' href ="gajiKaryawan.php">Hitung Gaji Karyawan</a>
+<a  class='btn' href ="gajiKaryawan_kelompok10.php">Hitung Gaji Karyawan</a>
 <style>
   table {
     display: flex;
@@ -57,7 +57,7 @@
 </style>
 
 <?php
-include "koneksi.php";
+include "koneksi_kelompok10.php";
 echo "<br>";
 
 $sql = "SELECT * FROM daftar_parkir";

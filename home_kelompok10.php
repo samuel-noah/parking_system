@@ -19,7 +19,7 @@
     <input type="checkbox" name="" id="toggler">
     <label for="toggler" class="fas fa-bars"></label>
 
-    <img src="img/logoUI.png" class="" height="55" width="100"><span>.</span></a>
+    <img src="img/logoUI.png" class="" height="55" width="90"><span>.</span></a>
 
     <nav class="navbar">
         <a href="#home">Home</a>
@@ -165,20 +165,6 @@
             </div>
         </div>
 
-        <!-- <div class="box">
-            <div class="image">
-                <img src="images/foundation.png" alt="">
-                <div class="icons">
-                    <a href="#" class="cart-btn">add to cart</a>
-                </div>
-            </div>
-            <div class="content">
-                <h3>Foundation</h3>
-                <div class="price"> Rp 359.999 <span>Rp 499.999</span> </div>
-            </div>
-        </div>
-
-    </div> -->
 
 </section>
 
@@ -188,19 +174,8 @@
 	
 	    <div class="row">
 
-            <a  class ="btn" href="main.php">Input Data</a>
+            <a  class ="btn" href="main_kelompok10.php">Input Data</a>
 
-        <!-- <form action="">
-            <input type="text" placeholder="name" class="box">
-            <input type="email" placeholder="email" class="box">
-            <input type="number" placeholder="phone number" class="box">
-            <textarea name="" class="box" placeholder="orders" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="Input data" class="btn">
-        </form>
-
-        <div class="image">
-            <img src="images/myself.jpg" alt="">
-        </div> -->
 
     </div>
 
@@ -210,17 +185,9 @@
 
     <div class="box-container">
 
-        <!-- <div class="box">
-            <h3>Information</h3>
-            <a> Alamat Toko: Graha Raya, Bintaro. </a>
-			<a> Instagram: zahratdjo.mua</a>
-            <a> Nomor Telp: 089650022507</a>
-            <img src="images/payment.png" alt="">
-        </div> -->
-
     </div> 
 
-    <div class="credit"> dibuat oleh <span> Kelompok 11 -  </span> | Pengembangan Situs Web</div>
+    <div class="credit"> dibuat oleh <span> Kelompok 10 -  </span> | Pengembangan Situs Web</div>
 
 </section>
 

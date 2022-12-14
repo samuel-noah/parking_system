@@ -47,7 +47,7 @@ h1{
 </body>
 </html>
 <?php 
-include "koneksi.php";
+include "koneksi_kelompok10.php";
 
 
 $jenisKendaraan = $_POST['jenisKendaraan'];
@@ -108,4 +108,4 @@ if ($hasilQuery) echo "<p class='echo1'> Data sudah tersimpan ke database </p>";
 echo "Penyimpanan data gagal". mysqli_error($conn);
 ?>
 <br>
-<a href ="tampil.php" class="btn">Rekap Data</a>
+<a href ="tampil_kelompok10.php" class="btn">Rekap Data</a>

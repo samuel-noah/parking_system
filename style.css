@@ -37,7 +37,8 @@ section{
 }
 
 .btn{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin-top: 1rem;
     border-radius: 5rem;
     background:#333;
@@ -454,7 +455,7 @@ header .fa-bars{
 .footer .credit{
     text-align: center;
     padding:1.5rem;
-    margin-top: 1.5rem;
+    margin-top:10px;
     padding-top: 2.5rem;
     font-size: 2rem;
     color:#333;
@@ -465,7 +466,6 @@ header .fa-bars{
 .footer .credit span{
     color:var(--yellow);
 }
-
 
 
 

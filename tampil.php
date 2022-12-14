@@ -9,7 +9,7 @@
   <th>Biaya</th>
 </tr>
 <br>
-<button ><a href ="gajiKaryawan.php">Hitung Gaji Karyawan</a></button>
+<a  class='btn' href ="gajiKaryawan.php">Hitung Gaji Karyawan</a>
 <style>
   table {
     display: flex;
@@ -25,6 +25,34 @@
   th {
     background-color: rgb(189, 176, 0)
   }
+
+/* CSS */
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    border-radius: 5rem;
+    background:#333;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+
+    text-decoration: none;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.btn:hover{
+    background:rgb(189, 176, 0);
+}
+
+
+
+
+.echo1{
+  display: flex;
+  justify-content: center;
+}
 
 </style>
 
@@ -53,7 +81,7 @@ if (mysqli_num_rows($result) > 0) {
   
   if (mysqli_num_rows($hasil) > 0) {
     while($row = mysqli_fetch_assoc($hasil)) {
-      echo "Jumlah Pemasukan ". " ". implode(" ",$row);
+      echo "<h3 class='echo1'>Jumlah Pemasukan ". " ". implode(" ",$row)." </h3>";
     }
   } else {
     echo "0 results";

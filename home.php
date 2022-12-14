@@ -19,7 +19,7 @@
     <input type="checkbox" name="" id="toggler">
     <label for="toggler" class="fas fa-bars"></label>
 
-    <img src="images/logo.png" class="" height="55" width="180"><span>.</span></a>
+    <img src="img/logoUI.png" class="" height="55" width="100"><span>.</span></a>
 
     <nav class="navbar">
         <a href="#home">Home</a>
@@ -33,11 +33,11 @@
 <section class="home" id="home">
 
     <div class="content">
-        <h3>Universitats Indonesia Parking System</h3>
+        <h3>Universitas Indonesia Parking System</h3>
         <span>Fast and Reliable</span>
         <p>Universitas Indonesia memiliki puluhan fakultas dimana setiap fakultasnya memiliki
             tempat untuk menyimpan kendaraan, maka perlu dibentuk sebuah sistem untuk medata kendaraan tersebut. </p>
-        <!-- <a href="#" class="btn">Shop Now</a> -->
+        
     </div>
     
 </section>
@@ -49,7 +49,7 @@
     <div class="row">
 
         <div class="image-container">
-            <img src="images/logo.png" class="" height="160" width="500"></img>
+            <img src="img/sistemParkirUI.jpeg" class="" height="160" width="400"></img>
         </div>
 
         <div class="content">
@@ -57,7 +57,7 @@
             <p>Adalah sebuah website sistem informasi yang digunakan untuk mendata kendaraan yang masuk dan keluar pada sebuah wilayah parkir 
                 dan menghitung biaya yang perlu dibayarkan.</p>
             <p>Website ini adalah untuk Ujian Akhir Semester mata kuliah Pengembangan Situs Website.</p>
-            <a href="#" class="btn">learn more</a>
+            
         </div>
 
     </div>
@@ -102,7 +102,7 @@
         <div class="box">
  
             <div class="image">
-                <img src="images/blushon.png" alt="">
+                <img src="img/syakur.png" alt="">
                 <div class="icons">
                     <a href="#" class="cart-btn">Syakur</a>
                 </div>
@@ -115,7 +115,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/lipstick.png" alt="">
+                <img src="img/tejo.png" alt="">
                 <div class="icons">
                     <a href="#" class="cart-btn">Zahra</a>
                 </div>
@@ -128,7 +128,7 @@
 
         <div class="box">
             <div class="image">
-                <img src="images/eyeshadow.png" alt="">
+                <img src="img/samuel.png" alt="">
                 <div class="icons">
                     <a href="#" class="cart-btn">Samuel</a>
                 </div>
@@ -141,27 +141,27 @@
 
     <div class="box">
             <div class="image">
-                <img src="images/bulmat.png" alt="">
+                <img src="img/nabil.png" alt="">
                 <div class="icons">
                     <a href="#" class="cart-btn">Nabil</a>
                 </div>
             </div>
             <div class="content">
-                <h3>Tyler the Nabil</h3>
-                <div class="price"> NPM  </div>
+                <h3>Nabil Arsyil Nuha </h3>
+                <div class="price"> 2106645531  </div>
             </div>
         </div>
 
         <div class="box">
             <div class="image">
-                <img src="images/brush.png" alt="">
+                <img src="img/hatta.png" alt="">
                 <div class="icons">
                     <a href="#" class="cart-btn">Hatta</a>
                 </div>
             </div>
             <div class="content">
                 <h3>Muhammad Hatta</h3>
-                <div class="price"> NPM  </div>
+                <div class="price"> 2106648350 </div>
             </div>
         </div>
 
@@ -204,21 +204,21 @@
 
     </div>
 
-<!-- </section>
+</section>
 
 	<section class="footer">
 
     <div class="box-container">
 
-        <div class="box">
+        <!-- <div class="box">
             <h3>Information</h3>
             <a> Alamat Toko: Graha Raya, Bintaro. </a>
 			<a> Instagram: zahratdjo.mua</a>
             <a> Nomor Telp: 089650022507</a>
             <img src="images/payment.png" alt="">
-        </div>
+        </div> -->
 
-    </div> -->
+    </div> 
 
     <div class="credit"> dibuat oleh <span> Kelompok 11 -  </span> | Pengembangan Situs Web</div>
 

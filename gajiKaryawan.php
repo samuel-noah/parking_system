@@ -20,9 +20,27 @@ h1{
     color: rgb(189, 176, 0);
 }
 
-button{
-    justify-content: center;
+.btn{
     display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    border-radius: 5rem;
+    background:#333;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+
+    text-decoration: none;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.btn:hover{
+    background:rgb(189, 176, 0);
+}
+.echo2{
+    display: flex;
+  justify-content: center;   
 }
 
 </style>
@@ -33,7 +51,7 @@ button{
         <br>
         <input type ="reset">
         <input type = "submit" name ="kirim">
-        <button ><a href ="home.php">Home</a></button>
+        
     </form>
 </body>
 </html>
@@ -46,6 +64,7 @@ if(isset($_POST['kirim'])){
     $uangMakan = 25000;
     $gajiKaryawan = $jumlahKaryawan * ($gajiPokok + $uangTransport + $uangMakan);
 
-    echo "Total Gaji adalah: " . $gajiKaryawan;
+    echo "<h3 class='echo2'> Total Gaji adalah: "."Rp.". $gajiKaryawan .  "</h3>";
 }
 ?>
+<a href ="home.php" class="btn">Home</a>

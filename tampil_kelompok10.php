@@ -81,7 +81,7 @@ if (mysqli_num_rows($result) > 0) {
   
   if (mysqli_num_rows($hasil) > 0) {
     while($row = mysqli_fetch_assoc($hasil)) {
-      echo "<h3 class='echo1'>Jumlah Pemasukan ". " ". implode(" ",$row)." </h3>";
+      echo "<h3 class='echo1'>Jumlah Pemasukan ". "Rp."." ". implode(" ",$row)." </h3>";
     }
   } else {
     echo "0 results";

@@ -109,7 +109,7 @@
             </div>
             <div class="content">
                 <h3>Muhammad Syakur</h3>
-                <div class="price"> NPM  </div>
+                <div class="price"> 2106756393  </div>
             </div>
         </div>
 

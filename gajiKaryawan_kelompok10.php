@@ -10,8 +10,7 @@
 body {
   margin-left: 35% ;
   margin-right: 35%;
-  /* width: 100vw;
-  height: 100vh; */
+
   background: #ecf0f3;
   align-items: center;
   text-align: center;
@@ -44,8 +43,7 @@ h1{
     cursor: pointer;
 
     text-decoration: none;
-    /* margin-left: 40%;
-    margin-right: 40%; */
+
 }
 
 .btn:hover{
@@ -85,7 +83,7 @@ box-shadow: none;
 </style>
 <body>
     <div class="container">
-        <h1>Jumlah Gaji Karyawan</h1>
+        <h1>Hitung Gaji Karyawan</h1>
         <form action ="gajiKaryawan_kelompok10.php" method="POST">
             Jumlah Karyawan: <input type="number" name = "jumlahKaryawan">
             <br>

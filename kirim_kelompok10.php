@@ -86,7 +86,7 @@ function hitungBiaya() {
             $price += 1500;
         } else if ($hours > 2 && $hours < 8) {
             $hourRelapse = $hours - 2;
-            $price += (3000 + ($hourRelapse * 500));
+            $price += (1500 + ($hourRelapse * 500));
         } else {
             $price += 5000;
         }
